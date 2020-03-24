@@ -14,7 +14,10 @@ Expected OUTPUT for this sample:
 */
 
 function getPositiveNumbers(numbers) {
-}
+  const resultat = numbers.filter(number => number >= 0);
+   return resultat;
+ }
+
 
 // If you need, you can always visualize the result with a console.log.
 // In that case, uncomment the line below (you can also add your own
